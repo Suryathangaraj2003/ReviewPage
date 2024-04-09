@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect,useState } from 'react'
-import { Link } from 'react-router-dom'
+
 import ClipLoader from "react-spinners/ClipLoader";
 import Page7 from './Page7';
 
@@ -13,11 +13,7 @@ const Page5 = () => {
             
         }, 2000);
     },[])
-    const handleCon=()=>{
-        setLoading(true)
-    
-    
-}
+
   return (
     <div className='h-screen flex flex-row text-center justify-center items-center'>
          {
